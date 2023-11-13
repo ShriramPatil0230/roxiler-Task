@@ -1,0 +1,22 @@
+table{
+  max-width: 90%;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+table,td,th{
+  border-collapse: collapse;
+  text-align: start;
+  background-color: rgb(87, 235, 251);
+  padding: 8px 15px;
+  border: 2px solid #f42c2c6b;
+}
+th{
+  text-align: center;
+  font-size: 18px;
+}
+.table-image img{
+  align-self: center;
+  mix-blend-mode: darken;
+  width: 50px;
+  height: 50px;
+}

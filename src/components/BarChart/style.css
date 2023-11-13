@@ -1,0 +1,58 @@
+.barchart {
+  position: relative;
+  margin: auto auto;
+  padding: 1rem;
+  width: 600px;
+  background-color: rgba(107, 111, 228, 0.779);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.barchart .items {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  gap: 13px;
+  margin-left: 13px;
+  font-weight: 600;
+}
+.barchart .price {
+  display: flex;
+  gap: 20px;
+  padding: 1rem 2rem;
+  font-weight: 600;
+}
+.barchart .price div {
+  width: 60px;
+}
+.barchart .chart {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  top: 107px;
+  height: 210px;
+  padding: 0px 2rem;
+  gap: 43px;
+}
+.barchart .chart .chart-item {
+  border-radius: 5px 5px 0px 0px;
+  width: 35px;
+  background-color: rgb(226, 76, 43);
+  cursor: pointer;
+}
+.hr-line {
+  width: 80%;
+  height: 5px;
+  position: absolute;
+  bottom: 6rem;
+  left: 3rem;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 33px;
+  opacity: 0.2;
+}
+.axis{
+  font-weight: bold;
+  padding: 10px 1rem ;
+  display: flex;
+  justify-content: space-between;
+}
